@@ -11,5 +11,5 @@ sudo wget https://raw.githubusercontent.com/wenjiping/quai-miner/main/setup.sh &
 
 ```commandline
 sudo wget https://raw.githubusercontent.com/wenjiping/quai-miner/main/miner.sh && sudo chmod +x miner.sh
-sudo ~/miner.sh
+sudo ~/miner.sh IP 端口
 ```
