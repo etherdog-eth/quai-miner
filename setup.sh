@@ -7,7 +7,7 @@ git clone https://github.com/dominant-strategies/quai-gpu-miner && cd quai-gpu-m
 git submodule update --init --recursive
 
 sudo wget https://raw.githubusercontent.com/wenjiping/quai-miner/main/CMakeLists.txt -O ~/quai-gpu-miner/libethash-cuda/CMakeLists.txt
-sudo wget https://raw.githubusercontent.com/wenjiping/quai-miner/main/main.app -O ~/quai-gpu-miner/ethcoreminer/main.app
+sudo wget https://raw.githubusercontent.com/wenjiping/quai-miner/main/main.cpp -O ~/quai-gpu-miner/ethcoreminer/main.cpp
 
 mkdir build && cd build
 cmake .. && cmake --build .
