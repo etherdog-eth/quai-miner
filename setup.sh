@@ -1,4 +1,5 @@
 # 安装依赖
+sudo apt update
 sudo apt install -y cmake build-essential mesa-common-dev
 sudo apt-get install -y nvidia-cuda-toolkit
 # 下载miner
