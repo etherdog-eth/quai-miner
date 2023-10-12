@@ -1,6 +1,6 @@
 # 安装依赖
 sudo apt install -y cmake build-essential mesa-common-dev
-sudo apt-get install nvidia-cuda-toolkit
+sudo apt-get install -y nvidia-cuda-toolkit
 # 下载miner
 git clone https://github.com/dominant-strategies/quai-gpu-miner && cd quai-gpu-miner
 
